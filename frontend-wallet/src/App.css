@@ -1,0 +1,98 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.billetera-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tarjeta {
+  background: linear-gradient(135deg, #c8102e 0%, #a00c23 100%);
+  width: 380px;
+  height: 220px;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  color: white;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-banco {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.contactless-icon {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 24px;
+}
+
+.chip {
+  width: 50px;
+  height: 35px;
+  background: linear-gradient(135deg, #e0c080 0%, #b09050 100%);
+  border-radius: 5px;
+  margin-top: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: 1px solid #a08040;
+}
+
+.saldo-container {
+  margin-top: 10px;
+}
+
+.saldo-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.saldo {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  margin: 0;
+  font-family: 'Courier New', monospace;
+}
+
+.info-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.logo-mastercard {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  height: 40px;
+}
