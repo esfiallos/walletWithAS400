@@ -22,7 +22,7 @@ En el ecosistema financiero actual, el verdadero desafío no es solo crear inter
 
 El sistema utiliza una arquitectura de **Middleware en Java** que traduce las peticiones HTTP modernas a protocolos nativos de base de datos IBM.
 
-```mermaid
+```
 graph LR
     A[Cliente Web (React)] -- Petición HTTP/JSON --> B[API Gateway (Spring Boot)]
     B -- JDBC / JTOpen Protocol --> C[(IBM i / AS400)]
