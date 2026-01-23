@@ -99,7 +99,9 @@ Abre tu navegador en http://localhost:5173.
 
 ---
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
+
+```text
 LegacyWallet/
 ├── Back-IBM/                  # Lógica del Servidor
 │   ├── src/main/java/com/uth/wallet/
