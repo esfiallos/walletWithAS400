@@ -6,8 +6,13 @@ function App() {
   const [cargando, setCargando] = useState(true)
   const [error, setError] = useState(null)
 
+  // 1. Obtenemos la URL de la variable de entorno. 
+  // Si no existe (ej. corriendo en local sin .env), usa localhost por defecto.
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+
   useEffect(() => {
-    fetch('http://localhost:9090/api/legacy/clientes')
+    fetch(`${API_BASE_URL}/clientes`)
       .then(response => response.json())
       .then(data => {
         setClientes(data)
